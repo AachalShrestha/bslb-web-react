@@ -1,0 +1,163 @@
+.page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+    width: 90vw;
+    margin: 0 5%;
+
+/*   display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+  padding: 80px;
+  gap: 64px;
+  font-family: var(--font-geist-sans); */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  .page {
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
+
+    --button-primary-hover: #ccc;
+    --button-secondary-hover: #1a1a1a;
+  }
+}
+ */
+
+ .heroContainer{
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center; /* ← add this */
+ }
+
+
+.heroTitle{
+  color: transparent;
+  -webkit-text-stroke: 1px white; /* For Safari & Chromium browsers */
+  text-stroke: 1px white;         /* Standard (Firefox may ignore this) */
+  font-size: 9rem;     
+}
+
+.arrowDown{
+  position: relative;
+  top: 50px;
+  z-index: 3;
+}
+
+
+.title{
+  font-weight: 500;
+}
+
+.text60{
+  width: 60%;
+
+}
+
+.marginTop{
+  margin-top: 30px;
+}
+.text80{
+
+  width: 80%;
+}
+
+.aboutContainer{
+margin-top: 100px;
+}
+.collectionsContainer{
+  display: flex;
+  width: 100%; /* optional, to fill container */
+  justify-content: center;
+  gap: 1rem; 
+}
+
+.collectionsContainer div{
+  flex: 1;
+  position: relative;
+  margin-top: 40px;
+}
+
+.collectionsContainer img {
+  width: 100%;
+}
+
+
+
+
+
+
+.booksWrapper{
+  position: absolute;
+  top:15vh;
+  margin-right: 50px;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookImg{
+  max-width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+.row1{
+  display: flex;
+}
+
+.row2{
+  display: flex
+}
+.book{
+  position: relative;
+}
+
+/* Books placement */
+.row1 .book:first-child{
+  transform: rotate(80deg);
+  top: 45px;
+  right: 20px;
+}
+
+.row1 .book:nth-child(2){
+  transform: rotate(10deg);
+  top: 130px;
+  right: 10px;
+}
+.row1 .book:last-child{
+  transform: rotate(-55deg);
+  top: 10px;
+
+}
+
+.row2 .book:first-child{
+  transform: rotate(25deg);
+  right: 40px;
+}
+
+.row2 .book:nth-child(2){
+  transform: rotate(6deg);
+  right: 20px;
+}
+
+.row2 .book:nth-child(4){
+  transform: rotate(-20deg);
+  bottom: 20px;
+  left: 20px;
+}
+
+
+
