@@ -1,9 +1,11 @@
+
 .nav {
   display: flex;
+  background-color: #191919;
   justify-content: space-between;
+  border-bottom: 1px solid white;
   align-items: center;
-  padding: 1rem;
-  margin: 0 5%;
+  padding: 1rem 5%;
 }
 
 .logo{

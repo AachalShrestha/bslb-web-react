@@ -1,0 +1,75 @@
+
+  .white-theme {
+    --background: white;
+  }
+
+.back-button{
+    margin: 20px 5% 0 5%;
+}
+.collection-header{
+  margin-bottom: 40px;
+}
+.collection-header h1{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+
+
+.collection-header h1, p, a{
+    color: #191919;
+}
+
+
+/* Book div */
+
+
+.books-grid-wrapper{
+  display: flex;
+  border-top:1px solid #191919;
+  width: 100%;
+}
+
+.books-grid-wrapper div:last-child{
+  border: none;
+}
+
+.grid-book {
+  padding: 20px;
+  border-right: 1px solid black;
+  flex: 1;
+}
+
+.grid-book div:first-child{
+  padding-bottom: 15px;
+  border-bottom: 0.5px solid black;
+}
+
+.grid-book div:nth-child(2){
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.grid-book div:last-child{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-top: 1px solid #191919;
+
+}
+
+.udc-tag{
+  background-color: #F7B9C4;
+  padding: 5px 10px;
+}
+
+.grid-book .title{
+  font-weight: 500;
+}
+
+.grid-book img{
+  max-height: 200px;
+  
+}

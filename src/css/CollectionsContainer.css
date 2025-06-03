@@ -1,0 +1,22 @@
+.collectionsWrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.collectionsContainer{
+  display: flex;
+  width: 80%; /* optional, to fill container */
+  justify-content: center;
+  gap: 1rem; 
+}
+
+.collectionsContainer div{
+  flex: 1;
+  position: relative;
+  margin-top: 40px;
+}
+
+.collectionsContainer img {
+  width: 100%;
+}
+

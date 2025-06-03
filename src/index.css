@@ -17,8 +17,9 @@ body {
   overflow-x: hidden;
 }
 
-body {
+body{
   color: var(--foreground);
+  background-color: var(--foreground);
   background: var(--background);
   font-family: 'Futura Std', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -61,4 +62,12 @@ p{
 
 h3{
   font-weight: 450;
+}
+
+.width-80{
+  width: 80%;
+}
+
+.width-60{
+  width: 60%;
 }
