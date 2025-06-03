@@ -5,6 +5,7 @@
 
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
+  --black: #191919;
     width: 90vw;
     margin: 0 5%;
 
@@ -18,6 +19,10 @@
   font-family: var(--font-geist-sans); */
 }
 
+ .white-theme {
+    --background: white;
+    color: var(--black);
+  }
 .page-80{
   margin: 0 10%;
 }

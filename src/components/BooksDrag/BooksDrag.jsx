@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import "../css/BooksDrag.css";
-import BooksDragBook from "./BooksDragBook";
+import "./BooksDrag.css";
+import BooksDragBook from "../BooksDragBook";
 
 export default function BooksDrag() {
   const [books, setBooks] = useState([]);

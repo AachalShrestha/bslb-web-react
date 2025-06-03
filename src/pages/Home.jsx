@@ -1,6 +1,6 @@
 import "../css/App.css";
 import Navigation from "../components/Navigation";
-import BooksDrag from "../components/BooksDrag";
+import BooksDrag from "../components/BooksDrag/BooksDrag";
 import CollectionsContainer from "../components/CollectionsContainer";
 import { useRef } from "react";
 

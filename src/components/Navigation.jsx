@@ -1,9 +1,19 @@
+import { useState, useEffect } from "react";
 import "../css/Navigation.css";
 
-export default function Navigation() {
+export default function Navigation({ category }) {
+  const [bgCategory, setCategory] = useState(null);
+
+  useEffect(() => {
+    if (category != null) {
+      setCategory(category);
+    } else {
+      setCategory(0); // default fallback
+    }
+  }, [category]);
   return (
     <>
-      <div className="nav">
+      <div className={`nav category-${bgCategory}`}>
         <a href="/">
           <img src="/assets/logo-GIF.gif" className="logo"></img>
         </a>

@@ -38,12 +38,21 @@ a {
 }
 
 button{
- background-color: transparent;
- border: 1px solid white;
- font-family: 'Futura Std', sans-serif;
- padding: 10px 20px;
+   font-family: 'Futura Std', sans-serif;
+ padding: 5px 15px;
  font-weight: 400;
 }
+.button-white{
+ background-color: transparent;
+ border: 1px solid white;
+}
+
+.button-black{
+   background-color: transparent;
+ border: 1px solid black;
+ color: #191919;
+}
+
 
 button:hover{
   background-color: white;
@@ -70,4 +79,10 @@ h3{
 
 .width-60{
   width: 60%;
+}
+
+@media (max-width: 768px) {
+  .width-60{
+    width: 100%;
+  }
 }

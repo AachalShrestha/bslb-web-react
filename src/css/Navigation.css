@@ -1,12 +1,44 @@
 
 .nav {
   display: flex;
-  background-color: #191919;
   justify-content: space-between;
   border-bottom: 1px solid white;
   align-items: center;
   padding: 1rem 5%;
 }
+
+.category-0{
+    background-color: #191919;
+    color: white;
+}
+
+.category-1{
+  background-color: #F7B9C4;
+  color: black;
+}
+
+.category-2{
+  background-color: #A5A2E1;
+  color: black;
+}
+
+.category-3{
+  background-color: #9BB465;
+  color: black;
+}
+
+.category-4{
+  background-color: #7A5353;
+  color: white;
+}
+
+.category-5{
+  background-color: #F07901;
+  color: black;
+}
+
+
+
 
 .logo{
     width: 2rem;

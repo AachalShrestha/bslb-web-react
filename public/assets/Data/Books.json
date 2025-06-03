@@ -2,36 +2,78 @@
   {
     "id": 1,
     "src": "/assets/BookCovers/interfunktionen9.png",
-    "alt": "Interfunktionen 9"
+    "alt": "Interfunktionen 9",
+    "title": "Interfunktionen 9",
+    "author": "Friedrich Wolfram Heubach",
+    "udc": "700.1",
+    "description": "A critical collection of avant-garde art and experimental media from the 1970s.",
+    "available": true,
+    "category": 2
   },
   {
     "id": 2,
     "src": "/assets/BookCovers/sonsbeek 72.png",
-    "alt": "Sonsbeek 72"
+    "alt": "Sonsbeek 72",
+    "title": "Sonsbeek 72",
+    "author": "Wim Beeren",
+    "udc": "708.492",
+    "description": "Catalogue of the landmark 1972 Sonsbeek sculpture exhibition in the Netherlands.",
+    "available": false,
+    "category": 3
   },
   {
     "id": 3,
     "src": "/assets/BookCovers/telephonebook.png",
-    "alt": "Telephone Book"
+    "alt": "Telephone Book",
+    "title": "Telephone Book",
+    "author": "Avital Ronell",
+    "udc": "801.95",
+    "description": "A deconstructionist analysis of technology, language, and communication.",
+    "available": true,
+    "category": 4
   },
   {
     "id": 4,
     "src": "/assets/BookCovers/Joseph Beuys und die Medizin.png",
-    "alt": "Joseph Beuys und die Medizin"
+    "alt": "Joseph Beuys und die Medizin",
+    "title": "Joseph Beuys und die Medizin",
+    "author": "Volker Harlan",
+    "udc": "709.2",
+    "description": "Explores Joseph Beuys' thoughts on healing, art, and anthroposophy.",
+    "available": false,
+    "category": 1
   },
   {
     "id": 5,
     "src": "/assets/BookCovers/Store days documents from The store and Ray Gun Theater.png",
-    "alt": "Store Days: Documents from The Store and Ray Gun Theater"
+    "alt": "Store Days: Documents from The Store and Ray Gun Theater",
+    "title": "Store Days: Documents from The Store and Ray Gun Theater",
+    "author": "Claes Oldenburg",
+    "udc": "709.04",
+    "description": "A documentation of Claes Oldenburg's performative installations in the 1960s.",
+    "available": true,
+    "category": 3
   },
   {
     "id": 6,
     "src": "/assets/BookCovers/Neue Galerie der Stadt Aachen.png",
-    "alt": "Neue Galerie der Stadt Aachen"
+    "alt": "Neue Galerie der Stadt Aachen",
+    "title": "Neue Galerie der Stadt Aachen",
+    "author": "Institution Publication",
+    "udc": "708.439",
+    "description": "Exhibition catalogue from one of Germany’s major contemporary art museums.",
+    "available": false,
+    "category": 5
   },
   {
     "id": 7,
     "src": "/assets/BookCovers/The Fourth Sex Adolescent Extremes.png",
-    "alt": "The Fourth Sex: Adolescent Extremes"
+    "alt": "The Fourth Sex: Adolescent Extremes",
+    "title": "The Fourth Sex: Adolescent Extremes",
+    "author": "Authors: Raf Simons & Francesco Bonami",
+    "udc": "305.23",
+    "description": "A cultural study of youth, fashion, and identity in contemporary society.",
+    "available": true,
+    "category": 2
   }
 ]

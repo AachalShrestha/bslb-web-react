@@ -1,6 +1,7 @@
 import Navigation from "../components/Navigation";
 import { useEffect } from "react";
 import "../css/CollectionPage.css";
+import CollectionBook from "../components/CollectionPageBook";
 
 export default function Collection() {
   useEffect(() => {
@@ -9,6 +10,7 @@ export default function Collection() {
       document.body.classList.remove("white-theme");
     };
   }, []);
+
   return (
     <>
       <Navigation />
@@ -37,90 +39,7 @@ export default function Collection() {
             worden.
           </p>
         </div>
-        <div className="books-grid-wrapper">
-          <div className="grid-book">
-            <div>
-              <p className="title">Buy Yourself The Damn Flowers</p>
-              <p>Author</p>
-            </div>
-            <div>
-              <img src="/assets/BookCovers/interfunktionen9.png"></img>
-            </div>
-            <div>
-              <p className="udc-tag">777.022</p>
-              <a>Addtolisr</a>
-            </div>
-          </div>
-          <div className="grid-book">
-            <div>
-              <p className="title">Neue Galerie der Stadt Aachen</p>
-              <p>Author</p>
-            </div>
-            <div>
-              <img src="/assets/BookCovers/Neue Galerie der Stadt Aachen.png"></img>
-            </div>
-            <div>
-              <p className="udc-tag">777.022</p>
-              <a>Addtolisr</a>
-            </div>
-          </div>
-          <div className="grid-book">
-            <div>
-              <p className="title">Roy Lichtenstein drawings and prints</p>
-              <p>Author</p>
-            </div>
-            <div>
-              <img src="/assets/BookCovers/Roy Lichtenstein drawings and prints.png"></img>
-            </div>
-            <div>
-              <p className="udc-tag">777.022</p>
-              <a>Addtolisr</a>
-            </div>
-          </div>
-        </div>
-        <div className="books-grid-wrapper">
-          <div className="grid-book">
-            <div>
-              <p className="title">Buy Yourself The Damn Flowers</p>
-              <p>Author</p>
-            </div>
-            <div>
-              <img src="/assets/BookCovers/sonsbeek 72.png"></img>
-            </div>
-            <div>
-              <p className="udc-tag">777.022</p>
-              <a>Addtolisr</a>
-            </div>
-          </div>
-          <div className="grid-book">
-            <div>
-              <p className="title">
-                Store days documents from The store and Ray Gun Theater
-              </p>
-              <p>Author</p>
-            </div>
-            <div>
-              <img src="/assets/BookCovers/Store days documents from The store and Ray Gun Theater.png"></img>
-            </div>
-            <div>
-              <p className="udc-tag">777.022</p>
-              <a>Addtolisr</a>
-            </div>
-          </div>
-          <div className="grid-book">
-            <div>
-              <p className="title">Buy Yourself The Damn Flowers</p>
-              <p>Author</p>
-            </div>
-            <div>
-              <img src="/assets/BookCovers/interfunktionen9.png"></img>
-            </div>
-            <div>
-              <p>777.022</p>
-              <a>Addtolisr</a>
-            </div>
-          </div>
-        </div>
+        <CollectionBook />
       </div>
     </>
   );
