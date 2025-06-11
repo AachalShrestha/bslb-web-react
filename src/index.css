@@ -38,13 +38,18 @@ a {
 }
 
 button{
-   font-family: 'Futura Std', sans-serif;
+font-family: 'Futura Std', sans-serif;
  padding: 5px 15px;
  font-weight: 400;
 }
 .button-white{
  background-color: transparent;
  border: 1px solid white;
+}
+
+.button-white:hover{
+ background-color: white;
+ color: var(--background);
 }
 
 .button-black{
@@ -58,6 +63,10 @@ button:hover{
   background-color: white;
   color: black;
   transition: 0.2s;
+}
+
+.arrowDown{
+  cursor: pointer;
 }
 @media (prefers-color-scheme: dark) {
   html {

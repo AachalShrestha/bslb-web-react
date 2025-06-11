@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import "./BooksDrag.css";
 
-const BooksDrag = () => {
+const DragAndDropMouse = () => {
   const [books, setBooks] = useState([]);
   const [draggedBook, setDraggedBook] = useState(null);
   const [offset, setOffset] = useState({ x: 0, y: 0 });
@@ -57,10 +56,10 @@ const BooksDrag = () => {
   return (
     <div
       style={{
-        position: "absolute",
-        top: "0",
+        position: "relative",
         width: "100vw",
         height: "100vh",
+        border: "1px solid black",
         overflow: "hidden",
       }}
       onMouseMove={handleMouseMove}
@@ -97,4 +96,4 @@ const BooksDrag = () => {
   );
 };
 
-export default BooksDrag;
+export default DragAndDropMouse;

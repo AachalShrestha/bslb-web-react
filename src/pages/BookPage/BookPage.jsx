@@ -1,5 +1,6 @@
 import "./BookPage.css";
 import Navigation from "../../components/Navigation";
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
@@ -7,6 +8,7 @@ import { useParams } from "react-router-dom";
 // or wherever your JSON is stored
 
 export default function BookPage() {
+  const navigate = useNavigate();
   const { id } = useParams(); // Get the book ID from URL
   const [book, setBook] = useState(null);
 
@@ -31,7 +33,7 @@ export default function BookPage() {
   return (
     <>
       <Navigation category={book.category} />
-      <a href="/">
+      <a onClick={() => navigate(-1)}>
         <img
           className="back-button"
           src="/assets/arrow_black_left.png"

@@ -13,14 +13,16 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      <div className="page collection">
+      <div className="page ">
         <div>
           <div className="heroContainer">
             <h1 className="heroTitle">
               Hubert Peeter's <br />
               Collectie
             </h1>
-            <button onClick={scrollFunction}>Ontdek meer</button>
+            <button className="button-white" onClick={scrollFunction}>
+              Ontdek meer
+            </button>
             <img
               src="/assets/arrow-down.png"
               alt="arrow down"
